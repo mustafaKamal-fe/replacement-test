@@ -32,3 +32,12 @@
 	margin: auto;
 	margin-top: 2rem;
 }
+.App-banner-wrapper {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.App-banner {
+	background-color: yellow;
+	color: black;
+	padding: 1rem;
+}

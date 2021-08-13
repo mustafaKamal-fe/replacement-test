@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-import LayoutImg from './assets/layout.png';
 import './App.css';
 function App() {
 	return (
@@ -15,26 +13,51 @@ function App() {
 				</ul>
 			</header>
 			<section className='App-section'>
-				<h1>Task: Page Layout</h1>
+				<h1>Task: JS Functionality</h1>
 				<aside>
-					We always come to a point where we have to plan ahead how the
-					different parts of a page should be placed. This moment, is one of 'em
-					lol!!.
+					Javascript is an event driven language, among other things. Here we
+					will use it to provide day-to-day UI functionality. We will see in the
+					following task.
 				</aside>
 				<div className='App-content'>
 					<ol>
 						<li>
-							If i click on the link below, i should go to a page named
-							"organized", that is already created for you, and i should see a
-							layout that looks exactly like the image below. Pretty easy !!
+							Build a very simple form with only{' '}
+							<b>
+								<i>ONE</i>
+							</b>{' '}
+							input of type{' '}
+							<b>
+								<i>text</i>
+							</b>{' '}
+							and named song. That could be your favorite song !!
+						</li>
+						<li>
+							Below the input there is a submit button that is when clicked
+							should <b>LOG</b> the input value.
+						</li>
+						<li>
+							However, we also need to validate our input to be a valid song
+							name. Hence, attach an{' '}
+							<b>
+								<i>event</i>
+							</b>{' '}
+							to the input that is when the mouse leaves input field, input
+							value gets validated against a criteria provided below.
+						</li>
+						<li>
+							<b>Bonus:</b> if you have time left, you can add some prompt text
+							(on errros and success) to notify users about current input state.
 						</li>
 					</ol>
 				</div>
-				<Link className='link' to='/organized'>
-					Go To Organized Layout Page
-				</Link>
-				<div className='App-img'>
-					<img src={LayoutImg} alt='layout' />
+				<div className='App-banner-wrapper'>
+					<b className='App-banner'>HEADS UP !!</b>
+					<p>
+						This task is pretty simple, i know. However, what really makes your
+						solution stands out is the way you will organize your code, document
+						your code and structure your files and folders.
+					</p>
 				</div>
 			</section>
 		</div>

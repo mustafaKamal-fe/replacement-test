@@ -1,4 +1,6 @@
-// HINT: you can insert your solution here
+import { Link } from 'react-router-dom';
+import LayoutImg from './assets/layout.png';
+import './App.css';
 function App() {
 	return (
 		<div className='App'>
@@ -13,47 +15,24 @@ function App() {
 				</ul>
 			</header>
 			<section className='App-section'>
-				<h1>Fix the Styles</h1>
+				<h1>Page Layout</h1>
 				<aside>
-					As you can see the website main page looks really bad. Now you must do
-					the following to make it look cool:
+					We always come to a point where we have to plan ahead how the
+					different parts of a page should be placed. This moment, is one of 'em
+					lol!!.
 				</aside>
 				<div className='App-content'>
 					<ol>
 						<li>
-							The page looks really really bad. Apply the styles related to{' '}
-							<i>
-								<b>This</b>
-							</i>{' '}
-							page. Do not worry about the <code>CSS</code> code as it is
-							already written for you.
-						</li>
-						<li>
-							Now the page styles look a lot better. However, we have one nasty
-							bug in the page layout. Please add global-styles that are already
-							written for you inside the <code>index.css</code> file to have
-							this problem solved.
+							If i click on the link below, i should go to a page named
+							"organized", that is already created for you, and i should see a
+							layout that looks exactly like the image below. Pretty easy !!
 						</li>
 					</ol>
 				</div>
-			</section>
-			<section className='App-section'>
-				<h1>I can center anything !!</h1>
-				<aside>
-					{' '}
-					Now you are asked to render a{' '}
-					<code>
-						<b>
-							<i>div</i>
-						</b>
-					</code>{' '}
-					element that is First, centered in the middle of the page, And Second
-					has the word "Metallica" that is also rendered in the middle of that
-					element. You can use whatever approach you are comfortable with.
-				</aside>
-				<div className='App-content'>
-					{/* HINT: CSS Flexbox could help here */}
-					{/* Insert Your Solution Here */}
+				<Link to='/organized'>Go To Organized Layout Page</Link>
+				<div className='App-img'>
+					<img src={LayoutImg} alt='layout' />
 				</div>
 			</section>
 		</div>

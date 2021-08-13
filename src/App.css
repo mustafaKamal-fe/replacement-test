@@ -5,7 +5,7 @@
 .App-header {
 	text-align: left;
 	padding: 1rem;
-	background-color: #3b4049;
+	background-color: #8d94a1;
 }
 
 .App-content {
@@ -25,4 +25,10 @@
 	font-size: calc(10px + 2vmin);
 	color: white;
 	padding: 1rem;
+}
+
+.App-img {
+	display: table;
+	margin: auto;
+	margin-top: 2rem;
 }

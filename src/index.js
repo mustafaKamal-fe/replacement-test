@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// HINT: you can insert your solution here
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import App from './App';
+import Organized from './Organized';
+import './index.css';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<Router>
+			<Switch>
+				<Route exact path='/' component={App} />
+				<Route path='/organized' component={Organized} />
+			</Switch>
+		</Router>
 	</React.StrictMode>,
 	document.getElementById('root')
 );

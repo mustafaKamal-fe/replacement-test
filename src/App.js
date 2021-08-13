@@ -13,50 +13,35 @@ function App() {
 				</ul>
 			</header>
 			<section className='App-section'>
-				<h1>Task: JS Functionality</h1>
+				<h1>Task: React Routing</h1>
 				<aside>
-					Javascript is an event driven language, among other things. Here we
-					will use it to provide day-to-day UI functionality. We will see in the
-					following task.
+					Using react-router-dom library, Implement the below tasks.
 				</aside>
 				<div className='App-content'>
 					<ol>
 						<li>
-							Build a very simple form with only{' '}
-							<b>
-								<i>ONE</i>
-							</b>{' '}
-							input of type{' '}
-							<b>
-								<i>text</i>
-							</b>{' '}
-							and named song. That could be your favorite song !!
+							The App has proper routing for three pages: index, about and
+							support page.
 						</li>
 						<li>
-							Below the input there is a submit button that is when clicked
-							should <b>LOG</b> the input value.
-						</li>
-						<li>
-							However, we also need to validate our input to be a valid song
-							name. Hence, attach an{' '}
-							<b>
-								<i>event</i>
-							</b>{' '}
-							to the input that is when the mouse leaves input field, input
-							value gets validated against a criteria provided below.
-						</li>
-						<li>
-							<b>Bonus:</b> if you have time left, you can add some prompt text
-							(on errros and success) to notify users about current input state.
+							The App also has a dynamic page of posts. That is one page has
+							list of links of <b>ALL</b> posts and each post has it's{' '}
+							<b>OWN</b> dynamicaly created page. <b>HINT:</b> see{' '}
+							<a
+								href='https://reactrouter.com/web/guides/quick-start/2nd-example-nested-routing'
+								target='_tab'>
+								Documentation
+							</a>
 						</li>
 					</ol>
 				</div>
 				<div className='App-banner-wrapper'>
 					<b className='App-banner'>HEADS UP !!</b>
 					<p>
-						This task is pretty simple, i know. However, what really makes your
-						solution stands out is the way you will organize your code, document
-						your code and structure your files and folders.
+						The way you will structure your folders and files matters here. Try
+						to acheive this task using the BEST way you find. Also you will be
+						asked when we review your solution, how you would add more routing
+						if your app grows in the future.
 					</p>
 				</div>
 			</section>

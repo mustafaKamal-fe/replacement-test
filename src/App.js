@@ -13,25 +13,42 @@ function App() {
 				</ul>
 			</header>
 			<section className='App-section'>
-				<h1>Task: React Routing</h1>
+				<h1>Task: REST api</h1>
 				<aside>
-					Using react-router-dom library, Implement the below tasks.
+					We will use a cartoon rest api (The Cartoon is Rick And Morty).
 				</aside>
 				<div className='App-content'>
 					<ol>
 						<li>
-							The App has proper routing for three pages: index, about and
-							support page.
+							In the index page (BELOW this content) should have one button
+							named get character. when clicked will fetch a <b>Single</b>{' '}
+							character.
 						</li>
 						<li>
-							The App also has a dynamic page of posts. That is one page has
-							list of links of <b>ALL</b> posts and each post has it's{' '}
-							<b>OWN</b> dynamicaly created page. <b>HINT:</b> see{' '}
-							<a
-								href='https://reactrouter.com/web/guides/quick-start/2nd-example-nested-routing'
-								target='_tab'>
-								Documentation
-							</a>
+							The button should show a loading state while fetching, does not
+							let user interact with also while fetching and returns back to
+							initial state when finished fetching.
+						</li>
+						<li>
+							Below the button you need to display a maximum of Three (3)
+							properties from the returned object. The way you display it is up
+							to you (from JSON to a beatifull card).
+						</li>
+						<li>
+							The fetch should also show a little notification in case of{' '}
+							<b>
+								<i>success</i>
+							</b>{' '}
+							or{' '}
+							<b>
+								<i>failure</i>
+							</b>
+							.This is also up to you if you want to log the messages in the
+							browser console or any other variant.
+						</li>
+						<li>
+							You are free to use whatever method to fetch from the API (
+							<code>fetch</code>, <code>axios</code> or anything.)
 						</li>
 					</ol>
 				</div>
@@ -39,9 +56,7 @@ function App() {
 					<b className='App-banner'>HEADS UP !!</b>
 					<p>
 						The way you will structure your folders and files matters here. Try
-						to acheive this task using the BEST way you find. Also you will be
-						asked when we review your solution, how you would add more routing
-						if your app grows in the future.
+						to acheive this task using the BEST way you find.
 					</p>
 				</div>
 			</section>

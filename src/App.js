@@ -59,6 +59,14 @@ function App() {
 						your code and structure your files and folders.
 					</p>
 				</div>
+				<div>
+					<h6>Input MUST be one of the following songs only</h6>
+					<ul>
+						<li>The Day That Never Comes</li>
+						<li>Nothing Else Matters</li>
+						<li>Master Of Puppets</li>
+					</ul>
+				</div>
 			</section>
 		</div>
 	);

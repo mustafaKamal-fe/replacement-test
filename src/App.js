@@ -22,7 +22,12 @@ function App() {
 						<li>
 							In the index page (BELOW this content) should have one button
 							named get character. when clicked will fetch a <b>Single</b>{' '}
-							character.
+							character. see{' '}
+							<a
+								href='https://rickandmortyapi.com/documentation/#get-a-single-character'
+								target='_tab'>
+								API docs
+							</a>
 						</li>
 						<li>
 							The button should show a loading state while fetching, does not

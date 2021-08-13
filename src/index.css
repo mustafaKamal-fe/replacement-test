@@ -12,3 +12,13 @@ code {
 		monospace;
 	color: steelblue;
 }
+
+.link {
+	margin-top: 1rem;
+	display: block;
+}
+.link:active,
+.link:visited {
+	text-decoration: none;
+	color: white;
+}

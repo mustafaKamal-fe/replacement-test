@@ -15,7 +15,7 @@ function App() {
 				</ul>
 			</header>
 			<section className='App-section'>
-				<h1>Page Layout</h1>
+				<h1>Task: Page Layout</h1>
 				<aside>
 					We always come to a point where we have to plan ahead how the
 					different parts of a page should be placed. This moment, is one of 'em
@@ -30,7 +30,9 @@ function App() {
 						</li>
 					</ol>
 				</div>
-				<Link to='/organized'>Go To Organized Layout Page</Link>
+				<Link className='link' to='/organized'>
+					Go To Organized Layout Page
+				</Link>
 				<div className='App-img'>
 					<img src={LayoutImg} alt='layout' />
 				</div>

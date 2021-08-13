@@ -13,51 +13,33 @@ function App() {
 				</ul>
 			</header>
 			<section className='App-section'>
-				<h1>Task: REST api</h1>
+				<h1>Task: React State Management</h1>
 				<aside>
-					We will use a cartoon rest api (The Cartoon is Rick And Morty).
+					You will use <code>useState</code> And <code>useEffect</code> to
+					control the App state.
 				</aside>
 				<div className='App-content'>
 					<ol>
 						<li>
-							In the index page (BELOW this content) should have one button
-							named get character. when clicked will fetch a <b>Single</b>{' '}
-							character.
-						</li>
-						<li>
-							The button should show a loading state while fetching, does not
-							let user interact with also while fetching and returns back to
-							initial state when finished fetching.
-						</li>
-						<li>
-							Below the button you need to display a maximum of Three (3)
-							properties from the returned object. The way you display it is up
-							to you (from JSON to a beatifull card).
-						</li>
-						<li>
-							The fetch should also show a little notification in case of{' '}
+							In the index page{' '}
 							<b>
-								<i>success</i>
+								<i>AND</i>
 							</b>{' '}
-							or{' '}
-							<b>
-								<i>failure</i>
-							</b>
-							.This is also up to you if you want to log the messages in the
-							browser console or any other variant.
+							after the page renders, you need to log to the browser console two
+							messages, The first one says "Hello" and the second says "Hello
+							again". However, the first message should always come first (no
+							brainer!!) and must not live besides the second message.
 						</li>
 						<li>
-							You are free to use whatever method to fetch from the API (
-							<code>fetch</code>, <code>axios</code> or anything.)
+							Now, forget about the above task. You need to have two buttons,
+							One increments a counter by one, and the other decrements the
+							counter by one (simple counters). the two should work properly and
+							cause re-rendering with correct counter value. Finally, you need
+							to build a small component that will show the counter value.
+							However, this component lives outside the component that has the
+							counter state dispatch functions (Drill It !!).
 						</li>
 					</ol>
-				</div>
-				<div className='App-banner-wrapper'>
-					<b className='App-banner'>HEADS UP !!</b>
-					<p>
-						The way you will structure your folders and files matters here. Try
-						to acheive this task using the BEST way you find.
-					</p>
 				</div>
 			</section>
 		</div>
